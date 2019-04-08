@@ -24,7 +24,8 @@ model_files = listdir(model_folder)
 model_files = [model_folder + model_file for model_file in model_files]
 # Read entire dataset
 df = pd.read_csv(path_full_set, index_col=0)
-# Keep only columns of interest
+# Keep only columns of interest & save names for later
+names = df['Name']
 df = df[cols]
 # Initialize df variables
 with open(path_indices) as json_file:
@@ -69,6 +70,10 @@ df_average['Percentage difference'] = error_p
 
 # Print average errors
 print({'error_ma': error_ma, 'error_rms': error_rms, 'error_mp': error_mp})
+
+# Replace index with name of compound
+df_average['Name'] = names
+df_average.set_index(keys='Name', inplace=True)
 
 # Save the sheet
 df_average.to_csv('../results/train_test_average.csv')
