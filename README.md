@@ -1,4 +1,4 @@
-# dcn_prediction
+# Derived Cetane Number (DCN) Prediction
 This is the official repository for the "Predicting ignition quality of oxygenated fuels using nuclear magnetic resonance spectroscopy and artificial neural networks" paper. The Derived Cetane Number (DCN) is predicted using Artificial Neural Networks (ANNs), parameterized by functional groups, branching index, and molecular weight.
 
 The hyperparameters of the final ANN were obtained using a multi-level grid search searching over:
