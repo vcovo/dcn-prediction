@@ -48,8 +48,6 @@ All code was written by Vincent C.O. van Oudenhoven. Abdul Gani Abdul Jameel was
 ## Acknowledgement 
 This code was developed at the King Abdullah University of Science and Technology (KAUST) and was supported by the KAUST Clean Fuels Consortium (KCFC) and its member companies.
 
-## License
-
 ## BibTex
 ```
 @article{article,
