@@ -45,14 +45,17 @@ Conda commands:
 ## Authorship
 All code was written by Vincent C.O. van Oudenhoven. Abdul Gani Abdul Jameel was responsible for the used data. Please refer to the publication itself for the full data source. 
 
-## Acknoledgement 
+## Acknowledgement 
+This code was developed at the King Abdullah University of Science and Technology (KAUST) and was supported by the KAUST Clean Fuels Consortium (KCFC) and its member companies.
 
 ## License
 
 ## BibTex
+```
 @article{article,
   author  = {Abdul Gani Abdul Jameel, Vincent C.O. van Oudenhoven, Nimal Naser, Abdul-Hamid Emwas, Xin Gao, S. Mani Sarathy}, 
   title   = {Predicting ignition quality of oxygenated fuels using nuclear magnetic resonance spectroscopy and artificial neural networks},
   year    = 2020
 }
+```
 
